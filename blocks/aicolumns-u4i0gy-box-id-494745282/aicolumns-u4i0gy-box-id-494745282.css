@@ -1,0 +1,50 @@
+
+.aicolumns-u4i0gy-box-id-494745282-wrapper {
+  display: flex;
+  flex-direction: row; /* Align children side by side */
+  justify-content: space-between; /* Space out the children */
+}
+
+.aicolumns-u4i0gy-box-id-494745282 > div {
+  display: flex;
+  flex-direction: row; /* Align children side by side */
+  width: 100%; /* Ensure it takes full width */
+  align-items: stretch; /* Stretch children to have equal height */
+}
+
+.aicolumns-u4i0gy-box-id-494745282 > div > div:first-child {
+  background-color: #0a1e5e; /* Dark blue background color */
+  color: white; /* White text color */
+  padding: 40px; /* Increase padding */
+  flex: 1; /* Allow it to take up available space */
+  display: flex; /* Use flex to align content within */
+  flex-direction: column; /* Align content vertically */
+  justify-content: center; /* Center content vertically */
+}
+
+.aicolumns-u4i0gy-box-id-494745282 > div > div:last-child {
+  flex: 1; /* Allow it to take up available space */
+  display: flex; /* Center the video content */
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  position: relative; /* For positioning video */
+  background-color: black; /* Ensure background color is black */
+}
+
+.aicolumns-u4i0gy-box-id-494745282 .button-container .button {
+  background-color: white; /* Button background color */
+  color: #0a1e5e; /* Button text color */
+  padding: 15px 30px; /* Increase padding for larger button */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  display: inline-block; /* Inline block for proper padding */
+  font-size: 18px; /* Increase font size */
+}
+
+/* Ensure the video section takes full height of the container */
+.aicolumns-u4i0gy-box-id-494745282 > div > div:last-child img,
+.aicolumns-u4i0gy-box-id-494745282 > div > div:last-child video {
+  width: 100%; /* Full width of the container */
+  height: 100%; /* Ensure it takes full height */
+  object-fit: cover; /* Cover the entire area */
+}
