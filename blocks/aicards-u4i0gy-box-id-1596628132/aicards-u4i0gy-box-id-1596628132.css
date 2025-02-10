@@ -1,0 +1,82 @@
+
+.aicards-u4i0gy-box-id-1596628132-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.aicards-u4i0gy-box-id-1596628132.block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  border: none;
+}
+
+.aicards-u4i0gy-box-id-1596628132 > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.aicards-u4i0gy-box-id-1596628132 > ul > li {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: none;
+  background-color: var(--background-color);
+}
+
+.aicards-u4i0gy-box-id-1596628132-card-image {
+  flex: 1;
+  max-width: 50%;
+  line-height: 0;
+}
+
+.aicards-u4i0gy-box-id-1596628132-card-image picture,
+.aicards-u4i0gy-box-id-1596628132-card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.aicards-u4i0gy-box-id-1596628132-card-body {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aicards-u4i0gy-box-id-1596628132-card-body h3 {
+  margin: 0 0 20px 0;
+  font-size: 1.5em;
+  color: #1a1a1a;
+}
+
+.aicards-u4i0gy-box-id-1596628132-card-body p {
+  margin: 0 0 20px 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.aicards-u4i0gy-box-id-1596628132-card-body .button-container {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.aicards-u4i0gy-box-id-1596628132-card-body .button-container .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #001f60;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
