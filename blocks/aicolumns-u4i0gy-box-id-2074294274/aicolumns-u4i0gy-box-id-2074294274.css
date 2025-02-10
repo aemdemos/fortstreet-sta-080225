@@ -1,8 +1,7 @@
 
 .aicolumns-u4i0gy-box-id-2074294274-wrapper > .aicolumns-u4i0gy-box-id-2074294274 > div {
   display: flex;
-  flex-direction: row; /* Ensures cards are side by side */
-  flex-wrap: wrap; /* Ensures cards wrap to next line if necessary */
+  flex-flow: row wrap; /* Ensures cards are side by side */ /* Ensures cards wrap to next line if necessary */
   gap: 20px; /* Adds space between each card */
   align-items: flex-start; /* Align items at the top */
 }
