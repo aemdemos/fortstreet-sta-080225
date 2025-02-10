@@ -11,7 +11,7 @@
   width: 100%;
   max-width: 1200px;
   border: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added light shadow */
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%); /* Added light shadow */
 }
 
 .aicards-u4i0gy-box-id-1596628132 > ul {
