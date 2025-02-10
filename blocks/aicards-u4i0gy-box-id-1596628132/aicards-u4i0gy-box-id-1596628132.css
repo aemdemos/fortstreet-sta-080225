@@ -11,6 +11,7 @@
   width: 100%;
   max-width: 1200px;
   border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added light shadow */
 }
 
 .aicards-u4i0gy-box-id-1596628132 > ul {
@@ -46,37 +47,41 @@
 
 .aicards-u4i0gy-box-id-1596628132-card-body {
   flex: 1;
-  padding: 40px;
+  padding: 15px 20px; /* Further reduced padding for more compact layout */
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Ensure elements are stacked */
   justify-content: center;
+  background-color: #fff; /* Ensure white background */
 }
 
 .aicards-u4i0gy-box-id-1596628132-card-body h3 {
-  margin: 0 0 20px;
-  font-size: 1.5em;
-  color: #1a1a1a;
+  margin: 0 0 5px; /* Reduced margin for more compact layout */
+  font-size: 2em; /* Adjusted font size for more emphasis */
+  font-weight: bold; /* Increased font weight */
+  color: #0c0c6d; /* Darker color for more emphasis */
 }
 
 .aicards-u4i0gy-box-id-1596628132-card-body p {
-  margin: 0 0 20px;
-  font-size: 1em;
+  margin: 0 0 15px; /* Adjusted margin for better spacing */
+  font-size: 1.125em; /* Slightly larger font size */
   color: #333;
 }
 
 .aicards-u4i0gy-box-id-1596628132-card-body .button-container {
-  margin-top: auto;
+  margin-top: 10px; /* Reduced margin for more compact layout */
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center; /* Centered button */
+  align-items: center;
 }
 
 .aicards-u4i0gy-box-id-1596628132-card-body .button-container .button {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #001f60;
+  padding: 10px 30px; /* Adjusted padding for a pill-like shape */
+  background-color: #002366; /* Ensure the correct button color */
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 30px; /* Rounded, pill-like shape */
   font-size: 1em;
+  text-align: center;
+  text-transform: capitalize; /* Ensure proper text capitalization */
 }
