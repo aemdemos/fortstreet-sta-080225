@@ -1,0 +1,74 @@
+
+/* Styling the entire block */
+.aicards-u4i0gy-box-id-95299458-wrapper {
+  background-image: url('path/to/background-image.jpg'); /* Assuming there is a background image */
+  background-size: cover;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.aicards-u4i0gy-box-id-95299458 {
+  display: flex;
+  flex-direction: row; /* Ensure elements are side by side */
+  justify-content: space-between; /* Evenly space out the cards */
+  gap: 20px; /* Add space between each card */
+}
+
+.aicards-u4i0gy-box-id-95299458 > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: row; /* Ensure elements are side by side */
+  justify-content: space-between; /* Distribute space between cards */
+  gap: 20px; /* Add space between each card */
+}
+
+.aicards-u4i0gy-box-id-95299458 > ul > li {
+  background-color: #02084b; /* Correct dark blue background color */
+  color: white; /* White text color */
+  padding: 20px; /* Padding inside each card */
+  flex: 1; /* Make all cards equal width */
+  box-sizing: border-box; /* Ensure padding is included in the width */
+  display: flex; /* Use flexbox for internal alignment */
+  flex-direction: column; /* Ensure elements inside the card body are stacked vertically */
+  justify-content: space-between; /* Distribute space between elements */
+  height: 100%; /* Ensure each card takes full height of the container */
+}
+
+.aicards-u4i0gy-box-id-95299458-card-body {
+  display: flex; /* Use flexbox for internal alignment */
+  flex-direction: column; /* Ensure elements inside the card body are stacked vertically */
+  justify-content: space-between; /* Distribute space between elements */
+  height: 100%; /* Ensure card body takes full height of the card */
+}
+
+.aicards-u4i0gy-box-id-95299458-card-body h2 {
+  font-size: 1.5em; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.aicards-u4i0gy-box-id-95299458-card-body p {
+  margin: 0 0 10px 0; /* Space between paragraphs */
+  flex: 1; /* Allow paragraphs to grow and fill available space */
+  display: flex;
+  align-items: flex-start; /* Ensure paragraphs start at the top */
+}
+
+/* Styling the call-to-action links */
+.aicards-u4i0gy-box-id-95299458-card-body .button-container {
+  margin-top: auto; /* Push the button to the bottom of the card */
+}
+
+.aicards-u4i0gy-box-id-95299458-card-body .button-container a {
+  color: white; /* White text color for the link */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold text for links */
+  display: inline-block; /* Ensure the arrow is in line with the text */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+}
+
+.aicards-u4i0gy-box-id-95299458-card-body .button-container a:after {
+  content: ' \003E'; /* Unicode for the greater-than symbol (>) */
+}
