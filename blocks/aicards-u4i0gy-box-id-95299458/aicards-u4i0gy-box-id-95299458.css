@@ -1,0 +1,91 @@
+
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal alignment */
+  flex-direction: row; /* Ensure elements are side by side */
+  justify-content: space-between; /* Distribute space between cards */
+}
+
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 > ul > li {
+  background-color: #002366; /* Dark blue background */
+  color: white; /* White text color */
+  flex: 1; /* Make all cards equal width */
+  margin: 0 10px; /* Space between cards */
+  padding: 20px; /* Padding inside each card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for better visual separation */
+  border-radius: 4px; /* Optional: Rounded corners */
+  display: flex; /* Use flexbox for internal alignment */
+  flex-direction: column; /* Ensure elements inside the card body are stacked vertically */
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body {
+  margin: 0; /* Remove extra margin */
+  display: flex; /* Use flexbox for internal alignment */
+  flex-direction: column; /* Ensure elements inside the card body are stacked vertically */
+  justify-content: flex-start; /* Align items to the start */
+}
+
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-image {
+  line-height: 0;
+}
+
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* Style headings */
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body h2 {
+  font-size: 1.5em; /* Larger font size for titles */
+  margin: 0 0 10px; /* Space below heading */
+  font-weight: bold; /* Bold text */
+  color: white; /* Ensure heading text is white */
+}
+
+/* Style paragraphs */
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body p {
+  margin: 0 0 10px; /* Space below paragraph */
+  color: white; /* Ensure paragraph text is white */
+}
+
+/* Style links (buttons) */
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body .button-container a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  padding: 0; /* Remove padding inside links */
+  display: inline; /* Ensure links are inline */
+  margin-top: 10px; /* Space above link */
+  background: none; /* Remove background */
+  border: none; /* Remove border */
+}
+
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body .button-container a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Ensure spacing is consistent */
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body h2,
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body p,
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body .button-container {
+  margin-left: 0; /* Ensure no left margin */
+  margin-right: 0; /* Ensure no right margin */
+}
+
+/* Ensure links within paragraphs are styled correctly */
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body p a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.aicards-u4i0gy-box-id-95299458-wrapper > .aicards-u4i0gy-box-id-95299458 .aicards-u4i0gy-box-id-95299458-card-body p a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Ensure the entire block has proper spacing */
+.aicards-u4i0gy-box-id-95299458-wrapper {
+  padding: 20px 0; /* Add padding to the top and bottom of the block */
+}
